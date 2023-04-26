@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Comic Book Creator - Assembly</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Comic Book Creator</h1>
+      <nav>
+        <ul>
+          <li><a href="writing.html">Writing</a></li>
+          <li><a href="art.html">Art</a></li>
+          <li><a href="assembly.html">Assembly</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Assembly</h2>
+        <div id="panel-container">
+          <div class="panel"></div>
+          <div class="panel"></div>
+          <div class="panel"></div>
+        </div>
+        <h3>Add Images</h3>
+        <form id="image-form">
+          <input type="file" id="image-input-1" name="image-input-1"><br><br>
+          <input type="file" id="image-input-2" name="image-input-2"><br><br>
+          <input type="file" id="image-input-3" name="image-input-3"><br><br>
+        </form>
+        <h3>Add Text</h3>
+        <form id="text-form">
+          <label for="text-input-1">Panel 1:</label>
+          <input type="text" id="text-input-1" name="text-input-1"><br><br>
+          <label for="text-input-2">Panel 2:</label>
+          <input type="text" id="text-input-2" name="text-input-2"><br><br>
+          <label for="text-input-3">Panel 3:</label>
+          <input type="text" id="text-input-3" name="text-input-3"><br><br>
+        </form>
+      </section>
+    </main>
+    <script src="scriptassembly.js"></script>
+  </body>
+</html>
